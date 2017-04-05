@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Created by kehu4 on 2016/3/8.
  */
-public class DateUtils {
+public class DateUtil {
     int a;
 
     public static long countDays(Date begin, Date end){
