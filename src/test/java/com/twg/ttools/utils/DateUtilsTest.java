@@ -1,8 +1,6 @@
 package com.twg.ttools.utils;
 
 
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
 import java.text.SimpleDateFormat;
@@ -20,7 +18,7 @@ public class DateUtilsTest {
         Date begin= myFormatter.parse("2016-02-01");
         Date end= myFormatter.parse("2016-03-01");
 
-        System.out.println(DateUtils.countDays(begin,end));
+        System.out.println(DateUtil.countDays(begin,end));
     }
 
 
