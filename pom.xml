@@ -13,6 +13,13 @@
     <description>Java工具方法</description>
     <url>https://github.com/tenvin/TTools</url>
 
+    <repositories>
+        <repository>
+            <id>aliyunmaven</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
+
     <properties>
         <maven.compiler.plugin.version>2.5.1</maven.compiler.plugin.version>
         <junit-version>4.12</junit-version>
