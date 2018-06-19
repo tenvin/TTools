@@ -1,13 +1,3 @@
-# excluding gitignore in sub folders
-*/.gitignore
-
-# eclipse setting files
-/.settings
-*/.settings
-.project
-.classpath
-maven-eclipse.xml
-
 # idea
 /.idea
 */.idea
