@@ -12,10 +12,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Slf4j
-public class LoggerTest {
+public class ApplicationTest {
 
-    @Test
-    public void test1(){
-        log.info("info...");
-    }
 }

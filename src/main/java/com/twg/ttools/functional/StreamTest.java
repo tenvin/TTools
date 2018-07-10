@@ -11,7 +11,9 @@ public class StreamTest {
         List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
 
         //long count = strings.stream().filter(string->string.isEmpty()).count();
-        long count = strings.stream().filter(String::isEmpty).count();
+        long count = strings.stream()
+                .filter(String::isEmpty)
+                .count();
         System.out.println("空字符串数量为: " + count);
 
     }
